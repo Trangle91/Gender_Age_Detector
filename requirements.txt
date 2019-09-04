@@ -1,0 +1,6 @@
+Numpy
+Opencv-python
+Requests
+Tensorflow
+Keras
+Cvlib
