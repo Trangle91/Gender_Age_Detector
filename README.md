@@ -31,4 +31,6 @@ This Keras implementation of a VGG-face model detects gender and age from a face
 <br>You can download the dataset on IMDB's website or from here. </br>
 <br>Depending on the hardware configuration of your system, the execution time will vary. On CPU, training will be slow. If you </br> 
 <br>have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.</br>
-![Farmers Market Finder Demo](demo/demo.gif)
+
+<h3>Demo</h3>
+![My demo](demo/demo.gif)
