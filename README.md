@@ -32,4 +32,4 @@
 <br>you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.</br>
 
 <h3>Demo</h3>
-![My demo](demo/demo.gif)
+![](demo/demo.gif)
