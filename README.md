@@ -1,9 +1,9 @@
 <h1>Gender and Age Detector</h1>
-This Keras implementation of a VGG-face model detects gender and age from a face image as well as from a video in 
+<br>This Keras implementation of a VGG-face model detects gender and age from a face image as well as from a video in </br>
 <br>real time using webcam. In training, the IMDB's wiki_crop dataset is used.</br>
-<br>The dataset is preprpocessed and the model is trained from scratch on 10500 cropped face images and tested on 4500 </br>
-<br>images. The dataset remains decent because of computational limit. Pre-trained weights for age and gender are utilized</br> 
-<br>to boost the accuracy of the model.</br>
+<br>The dataset is preprpocessed and the model is trained from scratch on 10500 cropped face images and tested on  </br>
+<br> 4500 images. The dataset remains decent because of computational limit. Pre-trained weights for age and gender are </br> 
+<br>utilized to boost the accuracy of the model.</br>
 
 <h3>Dependencies</h3>
 <ul>
