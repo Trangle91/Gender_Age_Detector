@@ -45,5 +45,6 @@ Use pip3 instead if pip is linked to Python 2.7.
 <br>Depending on the hardware configuration of your system, the execution time will vary. On CPU, training will be slow. If </br> 
 <br>you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.</br>
 
-###Demo
+<h3>Demo</h3>
+
 ![](demo/demo.gif)
