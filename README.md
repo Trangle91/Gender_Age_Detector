@@ -1,9 +1,14 @@
 <h1>Gender and Age Detector</h1>
-<br>This Keras implementation of a VGG-face model detects gender and age from a face image as well as from a video in </br>
-<br>real time using webcam. In training, the IMDB's wiki_crop dataset is used.</br>
-<br>The dataset is preprpocessed and the model is trained from scratch on 10500 cropped face images and tested on  </br>
-<br> 4500 images. The dataset remains decent because of computational limit. Pre-trained weights for age and gender are </br> 
-<br>utilized to boost the accuracy of the model.</br>
+This Keras implementation of a VGG-face model detects gender and age from a face image as well as from a video in 
+
+real time using webcam. In training, the IMDB's wiki_crop dataset is used.
+
+The dataset is preprpocessed and the model is trained from scratch on 10500 cropped face images and tested on
+
+4500 images. The dataset remains decent because of computational limit. Pre-trained weights for age and gender are 
+
+utilized to boost the accuracy of the model.
+
 
 <h3>Dependencies</h3>
 
@@ -42,12 +47,37 @@ Use pip3 instead if pip is linked to Python 2.7.
 
 <h3>Traning</h3>
 
-You can download the dataset on IMDB's website or from here.
+The model was trained and tested on wiki crop dataset.
 
 Depending on the hardware configuration of your system, the execution time will vary. On CPU, training will be slow. If 
 
 you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
 
-<h3>Demo</h3>
+<h3>Demo with images</h3>
+
+<h5>Input</h5>
+
+![](Sample inputs/katy.jpg)
+
+<h5>Output</h5>
+
+![](Sample outputs/output6.png)
+  
+<h3>Demo in real time</h3>
 
 ![](demo/demo.gif)
+
+
+<h3>Further improvement</h3>
+
+Due to the limited computational power, the dataset was kept small. If you want better results:
+
+- use a larger dataset such as IMDB's face datasets.
+- use pretrained weights for age and gender detections for accuracy boosting.
+- use a bigger network such as ResNet, or VGG with more layers or finetune it.
+
+<h3>Lisence</h3>
+
+The IMDB-WIKI dataset used in this project is originally provided under the following conditions.
+
+>Please notice that this dataset is made available for academic research purpose only. All the images are collected from the Internet, and the copyright belongs to the original owners. If any of the images belongs to you and you would like it removed, please kindly inform us, we will remove it from our dataset immediately.
