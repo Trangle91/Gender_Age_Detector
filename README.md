@@ -5,18 +5,18 @@
 <br> 4500 images. The dataset remains decent because of computational limit. Pre-trained weights for age and gender are </br> 
 <br>utilized to boost the accuracy of the model.</br>
 
-###Dependencies###
-<ul>
-<li>Python 3.6+</li>
-<li>Keras 2.0+</li>
-<li>OpenCV3</li>
-<li>Tensorflow</li>
-<li>Numpy</li>
-<li>h5py</li>
-<li>Scipy</li>
-</ul>
+<h3>Dependencies</h3>
 
-###Usage
+- Python 3.6+
+- Keras 2.0+
+- OpenCV3</li>
+- Tensorflow
+- Numpy
+- h5py
+- Scipy
+
+
+<h3>Usage</h3>
 
 1. Install required packages and libraries in dependencies 
 
@@ -40,10 +40,13 @@ Pip has to be linked to Python 3+ (pip -V will display info).
 Use pip3 instead if pip is linked to Python 2.7.
 
 
-###Traning
-<br>You can download the dataset on IMDB's website or from here. </br>
-<br>Depending on the hardware configuration of your system, the execution time will vary. On CPU, training will be slow. If </br> 
-<br>you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.</br>
+<h3>Traning</h3>
+
+You can download the dataset on IMDB's website or from here.
+
+Depending on the hardware configuration of your system, the execution time will vary. On CPU, training will be slow. If 
+
+you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
 
 <h3>Demo</h3>
 
