@@ -69,7 +69,7 @@ you have an Nvidia GPU, then you can install tensorflow-gpu package. It will mak
 
 <h3>Limitations</h3>
 
-Due to short computational power, two major confines was confronted, the size of the dataset and the model employed. 
+Due to short computational power, two major confines were confronted, the size of the dataset and the model employed. 
 
 The dataset, wiki-crop, was small and only cropped faces were comprised. The model could have been built with more 
 
@@ -78,6 +78,8 @@ layers and more complex architecture such as ResNet model. A ResNet50 model with
 to try with wiki-crop, but it did not improve the result because it was not suitable for this kind of small 
 
 dataset, so VGG was used. 
+
+The MAE used as a metrics was not as high as expectation. 
 
 <h3>Further improvement</h3>
 
