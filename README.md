@@ -42,10 +42,10 @@ The model was trained and tested on wiki crop dataset. Depending on the hardware
 <h3>Demo with images</h3>
 
 <h5>Input</h5>
-<img src="https://raw.githubusercontent.com/Trangle91/Gender_Age_Detector/master/Sample_inputs/katy.jpg" width="600" height="600"> 
+<img src="https://raw.githubusercontent.com/Trangle91/Gender_Age_Detector/master/Sample_inputs/katy.jpg" width="500" height="400"> 
 
 <h5>Output</h5>
-<img src="https://raw.githubusercontent.com/Trangle91/Gender_Age_Detector/master/Sample_outputs/output6.png" width="600" height="600"> 
+<img src="https://raw.githubusercontent.com/Trangle91/Gender_Age_Detector/master/Sample_outputs/output6.png" width="500" height="400"> 
 
 <h3>Demo in real time</h3>
 
